@@ -1,0 +1,29 @@
+/* .component-title-women{
+    background-color:#E97EE9;
+    color: white;
+    text-align: center;
+    height: 5rem;
+    margin-top: 5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.card-conatiner-women{
+    display: flex;
+    align-items: center;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+    overflow-y: hidden ;
+    gap: 4rem;
+    background-color: #D9D9D9;
+    
+}
+.card-container-data img{
+    height: 150px;
+    margin: auto;
+}

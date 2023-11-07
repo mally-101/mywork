@@ -3,9 +3,12 @@ import Marque from './Marque';
 import { Link } from 'react-router-dom';
 import '../style/Navbar.css'
 import {BsCart4} from "react-icons/bs"
+import { useContext } from 'react';
+import CartContext from '../Context/CartContext';
 
 
-const NavBar = ({cart}) => {
+const NavBar = () => {
+  const {cart} = useContext(CartContext)
   return (
     <div className='sticky-top'>
         <Marque/>

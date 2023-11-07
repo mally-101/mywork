@@ -1,0 +1,15 @@
+.card-container-jewelry{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 6rem;
+}
+.card-inner-jewelry img{
+    height: 150px;
+   margin: auto;
+}
+@media (max-width:425px) {
+    
+    .card-container-jewelry{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
